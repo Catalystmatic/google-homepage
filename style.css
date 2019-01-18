@@ -1,15 +1,74 @@
-#header {
-	text-align: right;
+ul, li{
+  list-style-type: none;
+  display: inline;
+  position: relative;
+  padding-left: 10px;
+  margin: 0;
+  font-family: arial, sans-serif;
+  
+}
+button {
+  color: #696969;
+  font-weight: bold;
+  width: 180px;
+  height: 35px;
+  background-color: #f1f1f1;
+}
+input {
+  width: 520px;
+  height: 30px;
+  border-color: lt grey;
+}
+#logo {
+	text-align: center;
+}
+.left {
+	float: left;
+}
+.right {
 	float: right;
-	width: 60px;
 }
-ul {
-    list-style-type: none;
-    width: 60px;
-    display: inline;
-} 
-li {
-    display: inline;
+.container {
+	display: block;
+  padding-top: 150px;
+  padding-bottom: 200px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid gray;
 }
+.signIn {
+  height: 35px;
+  width: 85px;
+  background: #3369E8;
+  color: white;
+  font-family: Arial;
+  font-size: 12px;
+  padding-top: 5px;
+}
+/*.header {
+  width: 350px;
+}*/
+/*.footer {
+  background-color: gray;
+  margin: -15px;
+}*/
+/*#signIn {
+  background-color: blue;
+  text-color: white;
+}*/
+/*.box {
+  border-style: solid;
+  border-color: black;
+  border-width: 5px;
+  text-align: center;
+}*/
+/*.apps {
+  margin: -10px -10px -10px -5px;
+}*/
 
-<!-- This is a comment -->
+/*
+* { 
+  border: 1px solid rgba(0, 0, 0, 0.4);
+}
+*/
+
+/* This is a comment */
